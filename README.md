@@ -34,7 +34,9 @@ spring.application.name=samples-app
 # 端口
 server.port=8081
 # 指定 zk 地址
-com.alipay.sofa.admin.zookeeper.address=localhost:2181
+com.alipay.sofa.dashboard.zookeeper.address=localhost:2181
+# 启用 sofa-dashboard
+com.alipay.sofa.dashboard.client.enable=true
 ```
 * 在 SOFADashboard 管控端查看应用注册信息
 
